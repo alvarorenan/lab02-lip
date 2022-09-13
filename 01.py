@@ -1,6 +1,9 @@
-# 29/08/2022, 20:00 by Alvaro 
-# Esse algoritmo declara uma variável mensagem, o usuário atribui um valor a essa variável e em seguida a variável é impressa na tela.
-# Declarando a variavel mensagem
-mensagem = input("Digite uma mensagem: ");
-# Imprimindo a variavel mensagem
-print(mensagem);
+minha_string = input();
+
+letras = "abcdefghijklmnopqrstuvwxyz0123456789"
+flag = True;
+for ch in minha_string.lower():
+    if(ch not in letras):
+        flag = False
+if(flag): print("Legal")
+else: print("Chata")
